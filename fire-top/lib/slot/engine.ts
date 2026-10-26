@@ -7,7 +7,7 @@ import {
   WEIGHTS,
   type Sym,
   type Win,
-} from "./confing";
+} from "./config";
 
 const POOL: Sym[] = SYMBOLS.flatMap((s) => Array<Sym>(WEIGHTS[s]).fill(s));
 

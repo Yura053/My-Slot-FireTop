@@ -3,7 +3,7 @@ import {
   BET_OPTIONS,
   PAYLINES,
   type SpinResponse,
-} from "../../../../lib/slot/confing";
+} from "@/lib/slot/config";
 import { spin } from "@/lib/slot/engine";
 
 // ТИМЧАСОВО: баланс у пам'яті сервера. Пізніше переносимо в MongoDB по користувачу.
