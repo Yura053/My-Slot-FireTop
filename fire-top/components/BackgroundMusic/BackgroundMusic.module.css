@@ -1,0 +1,16 @@
+.btn {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  padding: 8px 14px;
+  border: 1px solid #d4a017;
+  border-radius: 20px;
+  background: rgba(20, 5, 8, 0.8);
+  color: #ffd9b0;
+  font-size: 13px;
+}
+
+.btn:hover {
+  background: rgba(60, 15, 20, 0.9);
+}
